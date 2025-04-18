@@ -1,0 +1,374 @@
+*{
+    padding:0px;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    /* --bg-cl: #022237ff; */
+    --bg-cl: #021a2aff;
+    /* --bg-cl:#022237; */
+    --second:#0fc8b8;
+    /* --second: #04f1c5;  */
+    /* --second:#22b5c1; */
+    /* --second:#937ce0; */
+    --white:rgb(219, 219, 219);
+    /* --white2:#1dffca; */
+}
+
+
+
+@font-face{
+    font-family: 'popins1';
+    src: url('font/popins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'ortland';
+    src: url(font/Ortland.otf);
+}
+
+@font-face {
+    font-family:'Marhey';
+    src:url(font/Marhey-Medium.ttf)
+}
+
+
+/*--scroool bar*/
+::-webkit-scrollbar{
+    width:4px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(7, 18, 7);
+}
+::-webkit-scrollbar-thumb{
+    background-color:#04f1c5;
+}
+/*--scroool bar*/
+
+
+
+
+
+/* selecttin pludo element , cultomize the selection  */
+::selection{
+    background-color: var(--bg-cl);
+}
+
+
+/* loading */
+
+#loading{
+    width:100%;
+    height:100vh;
+    background-color: #033e33; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    z-index:100;
+    
+}
+
+#loading .parent{
+    background-color: rgba(255, 0, 0, 0);
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+
+}
+
+.parent div{
+    /* border:1px solid white; */
+    width:100%;
+    height:100%;
+   position:absolute;
+    background-color: rgba(0, 51, 255, 0);
+}
+
+
+.parent div:nth-child(5){
+    transform: rotate(0deg);
+    animation: divroat-5 1s linear infinite;
+    animation-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    animation-delay: 0s;
+}
+.parent div:nth-child(4){
+    transform: rotate(0deg);
+    animation: divroat-4 1s linear infinite;
+    animation-delay: 0.2s; animation-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.parent div:nth-child(3){
+    transform: rotate(0deg);
+    animation: divroat-3 1s linear infinite;
+    animation-delay: 0.4s; animation-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.parent div:nth-child(2){
+    transform: rotate(0deg);
+    animation: divroat-2 1s linear infinite;
+    animation-delay: 0.6s; animation-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.parent div:nth-child(1){
+    transform: rotate(0deg);
+    animation: divroat-1 1s linear infinite;
+    animation-delay: 0.8s; animation-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+@keyframes divroat-5{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes divroat-4{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes divroat-3{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes divroat-2{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes divroat-1{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.parent div span{
+    width:30%;
+    height:30%;
+    display:block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+}
+ 
+.parent div:nth-child(1) span{
+    background-color: rgb(183, 255, 0);
+    
+}
+.parent div:nth-child(2) span{
+    background-color: rgb(0, 255, 68);
+    
+}
+
+.parent div:nth-child(3) span{
+    background-color: rgb(0, 255, 68);
+    
+}
+
+
+
+
+
+
+
+
+
+body{
+    width:100%;
+    font-family: 'popins1';
+    position: relative;
+    background: var(--bg-cl);
+    
+}
+
+/* header-section */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:12px;
+   background-color: var(--bg-cl); 
+   /* position:sticky;
+   top:0px;
+   bottom:auto; */
+   z-index:99;
+
+}
+
+header img{
+    width:73px;
+}
+
+nav{
+    width:calc(100% - 73px);
+    display:flex;
+    justify-content: center;
+    padding-right:calc(73px / 2);
+    z-index:0;
+}
+
+header nav ul{
+    list-style: none;
+    display:flex;
+    width:fit-content;
+    height:auto;
+   border:1px solid rgb(29, 13, 13);
+  background-color: var(--second) ;
+    border-radius:8px;
+    overflow:hidden;
+    padding:0 61px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:rgb(8, 0, 0);
+    text-shadow: 5px 5px 5px rgba(134, 133, 133, 0.189);
+    padding:10px 22px;
+   font-size: 15px;
+   font-family: 'popins1';
+    display:inline-block;
+}
+
+
+header nav ul li a:hover{
+    background-color: #033e33;
+    color:var(--white);
+    transition:0.2s;
+}
+
+
+
+
+
+/*-icon-*/
+header .icon{
+    position: relative;
+    display:none;
+}
+
+header .icon img{
+    width:33px;
+    
+    padding:10px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+header .icon .options{
+    position:absolute;
+    top:59px;
+    right:0;
+    background-color: var(--white);
+    display:none;
+    z-index: 99;
+}
+header .icon .options a{
+ display:block;
+ border:1px solid var(--white);
+ padding:10px 32px;
+ text-decoration: none;
+ color:#022237ff;
+
+}
+header .icon .options a:hover{
+    background-color: #06707cff;
+    transition:0.4s;
+
+}
+
+header .icon:hover .options{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--footer section--*/
+footer{
+    background: linear-gradient(to right,#022237ff,#059488ff 70%);
+    width:100%;
+    height:12vw;
+    display:flex;
+    flex-direction: column;
+    gap:auto;
+    align-items:center;
+    justify-content: center;
+    margin-top:55px;
+    font-size: 15px;
+}
+footer p{
+    color: var(--white);
+}
+footer p b{
+    color:rgb(48, 253, 140);
+}
+
+
+
+
+
+
+
+
+
+/*----media for small screen*/
+
+@media all and (max-width:960px){
+    header nav ul li a{
+        font-size:12px;
+    }
+
+    header nav ul{
+        padding:0;
+    }
+}
+
+
+@media all and (max-width:800px){
+
+    header{
+        padding:5px;
+    }
+
+
+header nav{
+    display:none;
+}
+
+
+header .icon{
+    display:block;
+}
+
+}
