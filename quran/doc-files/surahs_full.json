@@ -1,0 +1,800 @@
+[
+  {
+    "number": 1,
+    "arabic": "ٱلْفَاتِحَة",
+    "english": "Al-Fatiha",
+    "bangla": "আল-ফাতিহা",
+    "meaning": "The Opening"
+  },
+  {
+    "number": 2,
+    "arabic": "ٱلْبَقَرَة",
+    "english": "Al-Baqarah",
+    "bangla": "আল-বাকারা",
+    "meaning": "The Cow"
+  },
+  {
+    "number": 3,
+    "arabic": "آلِ عِمْرَان",
+    "english": "Aal-E-Imran",
+    "bangla": "আলে-ইমরান",
+    "meaning": "The Family of Imran"
+  },
+  {
+    "number": 4,
+    "arabic": "ٱلنِّسَاء",
+    "english": "An-Nisa'",
+    "bangla": "আন-নিসা",
+    "meaning": "The Women"
+  },
+  {
+    "number": 5,
+    "arabic": "ٱلْمَائِدَة",
+    "english": "Al-Ma'idah",
+    "bangla": "আল-মায়িদাহ",
+    "meaning": "The Table Spread"
+  },
+  {
+    "number": 6,
+    "arabic": "ٱلْأَنْعَام",
+    "english": "Al-An'am",
+    "bangla": "আল-আনআম",
+    "meaning": "The Cattle"
+  },
+  {
+    "number": 7,
+    "arabic": "ٱلْأَعْرَاف",
+    "english": "Al-A'raf",
+    "bangla": "আল-আ'রাফ",
+    "meaning": "The Heights"
+  },
+  {
+    "number": 8,
+    "arabic": "ٱلْأَنفَال",
+    "english": "Al-Anfal",
+    "bangla": "আল-আনফাল",
+    "meaning": "The Spoils of War"
+  },
+  {
+    "number": 9,
+    "arabic": "ٱلتَّوْبَة",
+    "english": "At-Tawbah",
+    "bangla": "আত-তাওবা",
+    "meaning": "The Repentance"
+  },
+  {
+    "number": 10,
+    "arabic": "يُونُس",
+    "english": "Yunus",
+    "bangla": "ইউনুস",
+    "meaning": "Jonah"
+  },
+  {
+    "number": 11,
+    "arabic": "هُود",
+    "english": "Hud",
+    "bangla": "হুদ",
+    "meaning": "Hud"
+  },
+  {
+    "number": 12,
+    "arabic": "يُوسُف",
+    "english": "Yusuf",
+    "bangla": "ইউসুফ",
+    "meaning": "Joseph"
+  },
+  {
+    "number": 13,
+    "arabic": "ٱلرَّعْد",
+    "english": "Ar-Ra'd",
+    "bangla": "আর-রাদ",
+    "meaning": "The Thunder"
+  },
+  {
+    "number": 14,
+    "arabic": "إِبْرَاهِيم",
+    "english": "Ibrahim",
+    "bangla": "ইব্রাহিম",
+    "meaning": "Abraham"
+  },
+  {
+    "number": 15,
+    "arabic": "ٱلْحِجْر",
+    "english": "Al-Hijr",
+    "bangla": "আল-হিজর",
+    "meaning": "The Rocky Tract"
+  },
+  {
+    "number": 16,
+    "arabic": "ٱلنَّحْل",
+    "english": "An-Nahl",
+    "bangla": "আন-নাহল",
+    "meaning": "The Bee"
+  },
+  {
+    "number": 17,
+    "arabic": "ٱلْإِسْرَاء",
+    "english": "Al-Isra",
+    "bangla": "আল-ইসরা",
+    "meaning": "The Night Journey"
+  },
+  {
+    "number": 18,
+    "arabic": "ٱلْكَهْف",
+    "english": "Al-Kahf",
+    "bangla": "আল-কাহফ",
+    "meaning": "The Cave"
+  },
+  {
+    "number": 19,
+    "arabic": "مَرْيَم",
+    "english": "Maryam",
+    "bangla": "মারইয়াম",
+    "meaning": "Mary"
+  },
+  {
+    "number": 20,
+    "arabic": "طه",
+    "english": "Ta-Ha",
+    "bangla": "ত্বোহা",
+    "meaning": "Ta-Ha"
+  },
+  {
+    "number": 21,
+    "arabic": "ٱلْأَنْبِيَاء",
+    "english": "Al-Anbiya",
+    "bangla": "আল-আম্বিয়া",
+    "meaning": "The Prophets"
+  },
+  {
+    "number": 22,
+    "arabic": "ٱلْحَجّ",
+    "english": "Al-Hajj",
+    "bangla": "আল-হাজ্জ",
+    "meaning": "The Pilgrimage"
+  },
+  {
+    "number": 23,
+    "arabic": "ٱلْمُؤْمِنُون",
+    "english": "Al-Mu’minun",
+    "bangla": "আল-মুমিনুন",
+    "meaning": "The Believers"
+  },
+  {
+    "number": 24,
+    "arabic": "ٱلنُّور",
+    "english": "An-Nur",
+    "bangla": "আন-নূর",
+    "meaning": "The Light"
+  },
+  {
+    "number": 25,
+    "arabic": "ٱلْفُرْقَان",
+    "english": "Al-Furqan",
+    "bangla": "আল-ফুরকান",
+    "meaning": "The Criterion"
+  },
+  {
+    "number": 26,
+    "arabic": "ٱلشُّعَرَاء",
+    "english": "Ash-Shu'ara",
+    "bangla": "আশ-শুআরা",
+    "meaning": "The Poets"
+  },
+  {
+    "number": 27,
+    "arabic": "ٱلنَّمْل",
+    "english": "An-Naml",
+    "bangla": "আন-নামল",
+    "meaning": "The Ant"
+  },
+  {
+    "number": 28,
+    "arabic": "ٱلْقَصَص",
+    "english": "Al-Qasas",
+    "bangla": "আল-কাসাস",
+    "meaning": "The Stories"
+  },
+  {
+    "number": 29,
+    "arabic": "ٱلْعَنْكَبُوت",
+    "english": "Al-Ankabut",
+    "bangla": "আল-আনকাবুত",
+    "meaning": "The Spider"
+  },
+  {
+    "number": 30,
+    "arabic": "ٱلرُّوم",
+    "english": "Ar-Rum",
+    "bangla": "আর-রুম",
+    "meaning": "The Romans"
+  },
+  {
+    "number": 31,
+    "arabic": "لُقْمَان",
+    "english": "Luqman",
+    "bangla": "লুকমান",
+    "meaning": "Luqman"
+  },
+  {
+    "number": 32,
+    "arabic": "ٱلسَّجْدَة",
+    "english": "As-Sajda",
+    "bangla": "আস-সাজদাহ",
+    "meaning": "The Prostration"
+  },
+  {
+    "number": 33,
+    "arabic": "ٱلْأَحْزَاب",
+    "english": "Al-Ahzab",
+    "bangla": "আল-আহজাব",
+    "meaning": "The Confederates"
+  },
+  {
+    "number": 34,
+    "arabic": "سَبَأ",
+    "english": "Saba",
+    "bangla": "সাবা",
+    "meaning": "Sheba"
+  },
+  {
+    "number": 35,
+    "arabic": "فَاطِر",
+    "english": "Fatir",
+    "bangla": "ফাতির",
+    "meaning": "The Originator"
+  },
+  {
+    "number": 36,
+    "arabic": "يس",
+    "english": "Ya-Sin",
+    "bangla": "ইয়াসিন",
+    "meaning": "Ya-Sin"
+  },
+  {
+    "number": 37,
+    "arabic": "ٱلصَّافَّات",
+    "english": "As-Saffat",
+    "bangla": "আস-সাফফাত",
+    "meaning": "Those Who Set The Ranks"
+  },
+  {
+    "number": 38,
+    "arabic": "ص",
+    "english": "Sad",
+    "bangla": "সোয়াদ",
+    "meaning": "The Letter Sad"
+  },
+  {
+    "number": 39,
+    "arabic": "ٱلزُّمَر",
+    "english": "Az-Zumar",
+    "bangla": "আয-যুমার",
+    "meaning": "The Groups"
+  },
+  {
+    "number": 40,
+    "arabic": "غَافِر",
+    "english": "Ghafir",
+    "bangla": "গাফির",
+    "meaning": "The Forgiver"
+  },
+  {
+    "number": 41,
+    "arabic": "فُصِّلَت",
+    "english": "Fussilat",
+    "bangla": "ফুসসিলাত",
+    "meaning": "Explained in Detail"
+  },
+  {
+    "number": 42,
+    "arabic": "ٱلشُّورى",
+    "english": "Ash-Shura",
+    "bangla": "আশ-শুরা",
+    "meaning": "The Consultation"
+  },
+  {
+    "number": 43,
+    "arabic": "ٱلزُّخْرُف",
+    "english": "Az-Zukhruf",
+    "bangla": "আয-যুখরুফ",
+    "meaning": "The Gold Adornments"
+  },
+  {
+    "number": 44,
+    "arabic": "ٱلدُّخَان",
+    "english": "Ad-Dukhan",
+    "bangla": "আদ-দুখান",
+    "meaning": "The Smoke"
+  },
+  {
+    "number": 45,
+    "arabic": "ٱلْجَاثِيَة",
+    "english": "Al-Jathiya",
+    "bangla": "আল-জাসিয়াহ",
+    "meaning": "The Crouching"
+  },
+  {
+    "number": 46,
+    "arabic": "ٱلْأَحْقَاف",
+    "english": "Al-Ahqaf",
+    "bangla": "আল-আহকাফ",
+    "meaning": "The Wind-Curved Sandhills"
+  },
+  {
+    "number": 47,
+    "arabic": "مُحَمَّد",
+    "english": "Muhammad",
+    "bangla": "মুহাম্মাদ",
+    "meaning": "Muhammad"
+  },
+  {
+    "number": 48,
+    "arabic": "ٱلْفَتْح",
+    "english": "Al-Fath",
+    "bangla": "আল-ফাতহ",
+    "meaning": "The Victory"
+  },
+  {
+    "number": 49,
+    "arabic": "ٱلْحُجُرَات",
+    "english": "Al-Hujurat",
+    "bangla": "আল-হুজুরাত",
+    "meaning": "The Rooms"
+  },
+  {
+    "number": 50,
+    "arabic": "ق",
+    "english": "Qaf",
+    "bangla": "ক্বাফ",
+    "meaning": "The Letter Qaf"
+  },
+  {
+    "number": 51,
+    "arabic": "ٱلذَّارِيَات",
+    "english": "Adh-Dhariyat",
+    "bangla": "আয-যারিয়াত",
+    "meaning": "The Winnowing Winds"
+  },
+  {
+    "number": 52,
+    "arabic": "ٱلطُّور",
+    "english": "At-Tur",
+    "bangla": "আত্ব-তূর",
+    "meaning": "The Mount"
+  },
+  {
+    "number": 53,
+    "arabic": "ٱلنَّجْم",
+    "english": "An-Najm",
+    "bangla": "আন-নাজম",
+    "meaning": "The Star"
+  },
+  {
+    "number": 54,
+    "arabic": "ٱلْقَمَر",
+    "english": "Al-Qamar",
+    "bangla": "আল-কামার",
+    "meaning": "The Moon"
+  },
+  {
+    "number": 55,
+    "arabic": "ٱلرَّحْمَٰن",
+    "english": "Ar-Rahman",
+    "bangla": "আর-রহমান",
+    "meaning": "The Beneficent"
+  },
+  {
+    "number": 56,
+    "arabic": "ٱلْوَاقِعَة",
+    "english": "Al-Waqi'ah",
+    "bangla": "আল-ওয়াকিয়া",
+    "meaning": "The Inevitable"
+  },
+  {
+    "number": 57,
+    "arabic": "ٱلْحَدِيد",
+    "english": "Al-Hadid",
+    "bangla": "আল-হাদীদ",
+    "meaning": "The Iron"
+  },
+  {
+    "number": 58,
+    "arabic": "ٱلْمُجَادِلَة",
+    "english": "Al-Mujadila",
+    "bangla": "আল-মুজাদালাহ",
+    "meaning": "The Pleading Woman"
+  },
+  {
+    "number": 59,
+    "arabic": "ٱلْحَشْر",
+    "english": "Al-Hashr",
+    "bangla": "আল-হাশর",
+    "meaning": "The Exile"
+  },
+  {
+    "number": 60,
+    "arabic": "ٱلْمُمْتَحَنَة",
+    "english": "Al-Mumtahanah",
+    "bangla": "আল-মুমতাহানা",
+    "meaning": "The Woman to be Examined"
+  },
+  {
+    "number": 61,
+    "arabic": "ٱلصَّفّ",
+    "english": "As-Saff",
+    "bangla": "আস-সাফ",
+    "meaning": "The Ranks"
+  },
+  {
+    "number": 62,
+    "arabic": "ٱلْجُمُعَة",
+    "english": "Al-Jumu'ah",
+    "bangla": "আল-জুমু'আ",
+    "meaning": "The Congregation"
+  },
+  {
+    "number": 63,
+    "arabic": "ٱلْمُنَافِقُون",
+    "english": "Al-Munafiqun",
+    "bangla": "আল-মুনাফিকুন",
+    "meaning": "The Hypocrites"
+  },
+  {
+    "number": 64,
+    "arabic": "ٱلتَّغَابُن",
+    "english": "At-Taghabun",
+    "bangla": "আত-তাগাবুন",
+    "meaning": "The Mutual Disillusion"
+  },
+  {
+    "number": 65,
+    "arabic": "ٱلطَّلَاق",
+    "english": "At-Talaq",
+    "bangla": "আত-তালাক",
+    "meaning": "The Divorce"
+  },
+  {
+    "number": 66,
+    "arabic": "ٱلتَّحْرِيم",
+    "english": "At-Tahrim",
+    "bangla": "আত-তাহরীম",
+    "meaning": "The Prohibition"
+  },
+  {
+    "number": 67,
+    "arabic": "ٱلْمُلْك",
+    "english": "Al-Mulk",
+    "bangla": "আল-মুলক",
+    "meaning": "The Sovereignty"
+  },
+  {
+    "number": 68,
+    "arabic": "ٱلْقَلَم",
+    "english": "Al-Qalam",
+    "bangla": "আল-কলম",
+    "meaning": "The Pen"
+  },
+  {
+    "number": 69,
+    "arabic": "ٱلْحَاقَّة",
+    "english": "Al-Haqqah",
+    "bangla": "আল-হাক্কাহ",
+    "meaning": "The Reality"
+  },
+  {
+    "number": 70,
+    "arabic": "ٱلْمَعَارِج",
+    "english": "Al-Ma'arij",
+    "bangla": "আল-মাআরিজ",
+    "meaning": "The Ascending Stairways"
+  },
+  {
+    "number": 71,
+    "arabic": "نُوح",
+    "english": "Nuh",
+    "bangla": "নূহ",
+    "meaning": "Noah"
+  },
+  {
+    "number": 72,
+    "arabic": "ٱلْجِنّ",
+    "english": "Al-Jinn",
+    "bangla": "আল-জিন",
+    "meaning": "The Jinn"
+  },
+  {
+    "number": 73,
+    "arabic": "ٱلْمُزَّمِّل",
+    "english": "Al-Muzzammil",
+    "bangla": "আল-মুয্জাম্মিল",
+    "meaning": "The Enshrouded One"
+  },
+  {
+    "number": 74,
+    "arabic": "ٱلْمُدَّثِّر",
+    "english": "Al-Muddathir",
+    "bangla": "আল-মুদ্দাসসির",
+    "meaning": "The Cloaked One"
+  },
+  {
+    "number": 75,
+    "arabic": "ٱلْقِيَامَة",
+    "english": "Al-Qiyamah",
+    "bangla": "আল-ক্বিয়ামাহ",
+    "meaning": "The Resurrection"
+  },
+  {
+    "number": 76,
+    "arabic": "ٱلْإِنسَان",
+    "english": "Al-Insan",
+    "bangla": "আল-ইনসান",
+    "meaning": "Man"
+  },
+  {
+    "number": 77,
+    "arabic": "ٱلْمُرْسَلَات",
+    "english": "Al-Mursalat",
+    "bangla": "আল-মুরসালাত",
+    "meaning": "The Emissaries"
+  },
+  {
+    "number": 78,
+    "arabic": "ٱلنَّبَأ",
+    "english": "An-Naba",
+    "bangla": "আন-নাবা",
+    "meaning": "The Tidings"
+  },
+  {
+    "number": 79,
+    "arabic": "ٱلنَّازِعَات",
+    "english": "An-Nazi'at",
+    "bangla": "আন-নাযিয়াত",
+    "meaning": "Those Who Drag Forth"
+  },
+  {
+    "number": 80,
+    "arabic": "عَبَسَ",
+    "english": "Abasa",
+    "bangla": "আবাসা",
+    "meaning": "He Frowned"
+  },
+  {
+    "number": 81,
+    "arabic": "ٱلتَّكْوِير",
+    "english": "At-Takwir",
+    "bangla": "আত-তাকভীর",
+    "meaning": "The Overthrowing"
+  },
+  {
+    "number": 82,
+    "arabic": "ٱنفَطَرَتْ",
+    "english": "Al-Infitar",
+    "bangla": "আল-ইনফিতার",
+    "meaning": "The Cleaving"
+  },
+  {
+    "number": 83,
+    "arabic": "ٱلْمُطَفِّفِين",
+    "english": "Al-Mutaffifin",
+    "bangla": "আল-মুতাফফিফিন",
+    "meaning": "Defrauding"
+  },
+  {
+    "number": 84,
+    "arabic": "ٱنشَقَّتْ",
+    "english": "Al-Inshiqaq",
+    "bangla": "আল-ইনশিক্বাক",
+    "meaning": "The Splitting Open"
+  },
+  {
+    "number": 85,
+    "arabic": "ٱلْبُرُوج",
+    "english": "Al-Buruj",
+    "bangla": "আল-বুরুজ",
+    "meaning": "The Mansions of the Stars"
+  },
+  {
+    "number": 86,
+    "arabic": "ٱلطَّارِق",
+    "english": "At-Tariq",
+    "bangla": "আত্ব-তারিক",
+    "meaning": "The Morning Star"
+  },
+  {
+    "number": 87,
+    "arabic": "ٱلْأَعْلَى",
+    "english": "Al-A'la",
+    "bangla": "আল-আ'লা",
+    "meaning": "The Most High"
+  },
+  {
+    "number": 88,
+    "arabic": "ٱلْغَاشِيَة",
+    "english": "Al-Ghashiyah",
+    "bangla": "আল-গাশিয়াহ",
+    "meaning": "The Overwhelming"
+  },
+  {
+    "number": 89,
+    "arabic": "ٱلْفَجْر",
+    "english": "Al-Fajr",
+    "bangla": "আল-ফাজর",
+    "meaning": "The Dawn"
+  },
+  {
+    "number": 90,
+    "arabic": "ٱلْبَلَد",
+    "english": "Al-Balad",
+    "bangla": "আল-বালাদ",
+    "meaning": "The City"
+  },
+  {
+    "number": 91,
+    "arabic": "ٱلشَّمْس",
+    "english": "Ash-Shams",
+    "bangla": "আশ-শামস",
+    "meaning": "The Sun"
+  },
+  {
+    "number": 92,
+    "arabic": "ٱللَّيْل",
+    "english": "Al-Lail",
+    "bangla": "আল-লাইল",
+    "meaning": "The Night"
+  },
+  {
+    "number": 93,
+    "arabic": "ٱلضُّحَىٰ",
+    "english": "Adh-Dhuha",
+    "bangla": "আদ-দুহা",
+    "meaning": "The Morning Hours"
+  },
+  {
+    "number": 94,
+    "arabic": "ٱلشَّرْح",
+    "english": "Ash-Sharh",
+    "bangla": "আশ-শারহ",
+    "meaning": "The Relief"
+  },
+  {
+    "number": 95,
+    "arabic": "ٱلتِّين",
+    "english": "At-Tin",
+    "bangla": "আত-তীন",
+    "meaning": "The Fig"
+  },
+  {
+    "number": 96,
+    "arabic": "ٱلْعَلَق",
+    "english": "Al-Alaq",
+    "bangla": "আল-আলাক",
+    "meaning": "The Clot"
+  },
+  {
+    "number": 97,
+    "arabic": "ٱلْقَدْر",
+    "english": "Al-Qadr",
+    "bangla": "আল-কদর",
+    "meaning": "The Power"
+  },
+  {
+    "number": 98,
+    "arabic": "ٱلْبَيِّنَة",
+    "english": "Al-Bayyina",
+    "bangla": "আল-বাইয়্যিনাহ",
+    "meaning": "The Clear Proof"
+  },
+  {
+    "number": 99,
+    "arabic": "ٱلزَّلْزَلَة",
+    "english": "Az-Zalzalah",
+    "bangla": "আয-যালযালাহ",
+    "meaning": "The Earthquake"
+  },
+  {
+    "number": 100,
+    "arabic": "ٱلْعَادِيَات",
+    "english": "Al-Adiyat",
+    "bangla": "আল-আদিয়াত",
+    "meaning": "The Courser"
+  },
+  {
+    "number": 101,
+    "arabic": "ٱلْقَارِعَة",
+    "english": "Al-Qari'ah",
+    "bangla": "আল-কারিআহ",
+    "meaning": "The Calamity"
+  },
+  {
+    "number": 102,
+    "arabic": "ٱلتَّكَاثُر",
+    "english": "At-Takathur",
+    "bangla": "আত-তাকাসুর",
+    "meaning": "Rivalry in World Increase"
+  },
+  {
+    "number": 103,
+    "arabic": "ٱلْعَصْر",
+    "english": "Al-Asr",
+    "bangla": "আল-আসর",
+    "meaning": "The Declining Day"
+  },
+  {
+    "number": 104,
+    "arabic": "ٱلْهُمَزَة",
+    "english": "Al-Humazah",
+    "bangla": "আল-হুমাযাহ",
+    "meaning": "The Traducer"
+  },
+  {
+    "number": 105,
+    "arabic": "ٱلْفِيل",
+    "english": "Al-Fil",
+    "bangla": "আল-ফীল",
+    "meaning": "The Elephant"
+  },
+  {
+    "number": 106,
+    "arabic": "قُرَيْش",
+    "english": "Quraish",
+    "bangla": "কুরাইশ",
+    "meaning": "Quraish"
+  },
+  {
+    "number": 107,
+    "arabic": "ٱلْمَاعُون",
+    "english": "Al-Ma'un",
+    "bangla": "আল-মাউন",
+    "meaning": "The Small Kindnesses"
+  },
+  {
+    "number": 108,
+    "arabic": "ٱلْكَوْثَر",
+    "english": "Al-Kawthar",
+    "bangla": "আল-কাওসার",
+    "meaning": "The Abundance"
+  },
+  {
+    "number": 109,
+    "arabic": "ٱلْكَافِرُون",
+    "english": "Al-Kafirun",
+    "bangla": "আল-কাফিরুন",
+    "meaning": "The Disbelievers"
+  },
+  {
+    "number": 110,
+    "arabic": "ٱلنَّصْر",
+    "english": "An-Nasr",
+    "bangla": "আন-নাসর",
+    "meaning": "The Divine Support"
+  },
+  {
+    "number": 111,
+    "arabic": "ٱلْمَسَد",
+    "english": "Al-Masad",
+    "bangla": "আল-মাসাদ",
+    "meaning": "The Palm Fiber"
+  },
+  {
+    "number": 112,
+    "arabic": "ٱلْإِخْلَاص",
+    "english": "Al-Ikhlas",
+    "bangla": "আল-ইখলাস",
+    "meaning": "The Sincerity"
+  },
+  {
+    "number": 113,
+    "arabic": "ٱلْفَلَق",
+    "english": "Al-Falaq",
+    "bangla": "আল-ফালাক",
+    "meaning": "The Daybreak"
+  },
+  {
+    "number": 114,
+    "arabic": "ٱلنَّاس",
+    "english": "An-Nas",
+    "bangla": "আন-নাস",
+    "meaning": "Mankind"
+  }
+]

@@ -70,13 +70,23 @@ main #uper-hero .plate{
    text-align: center;
 }
 
+/* slider hadis */
+.hadis-slider-cont{
+    /* border:1px solid green; */
+    overflow: hidden;
+}
+.hadis-slider{  
+     display:flex;
+     width:100%;
+     /* transform: translateX(-100%); */
+}
 main #uper-hero .plate .pre{
     font-size: 10px;
     text-align: center;
     color:WHITE;
     padding-top:22px;
-    width:100%;
-    border-top: 1px solid white;
+    min-width:100%;
+    border-bottom: 1px solid white;
 }
 
 main #uper-hero img{
@@ -302,8 +312,8 @@ main #uper-hero img{
         -webkit-text-stroke-color: black;
         
     }
-    #uper-hero .plate .pre{
-        font-size: 10px;
+    #uper-hero .plate .hadis-slider-cont .hadis-slider .pre{
+        font-size: 5px;
     }
 
 

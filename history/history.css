@@ -118,6 +118,8 @@ main{
     background-color: #06707c;
     padding:22px;
     border-radius: 2px;
+    box-shadow: -7px 7px 2px 0px rgb(44, 43, 43) inset;  
+                                                              
 
 }
 
