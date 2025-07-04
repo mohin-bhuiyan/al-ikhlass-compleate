@@ -14,7 +14,7 @@ setInterval(() => {
 
 
   function next(){
-    console.log(count);  
+    
     
     react();
     count++;
