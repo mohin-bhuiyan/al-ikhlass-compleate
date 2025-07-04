@@ -1,0 +1,43 @@
+
+h1{
+    width:100%;
+    color:white;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size:43px;
+}
+
+.aya-wrap{
+    width:100%;
+    padding:12px 100px;
+    background-color: white;
+    /* direction: rtl; */
+}
+
+.ar-text{
+    color:rgb(0, 0, 0);
+    /* margin-right:102px; */
+    /* direction: rtl; */
+    /* background-color: white; */
+    text-align:center;
+    padding: 15px 12px;
+    font-size: 22px;
+    /* border-radius: 12px; */
+    border-bottom:1px solid black;
+}
+
+.ar-text > span{
+    position:relative;
+    display:block;
+    text-align: left;
+    padding:0px;
+    margin-left:12px;
+
+}
+
+.bn-text{
+    padding-top:5px;
+    margin-top:12px;
+    font-size: 18px;
+}

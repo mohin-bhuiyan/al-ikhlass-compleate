@@ -1,5 +1,5 @@
 *{
-    padding:0px;
+    padding:0;
     margin:0;
     box-sizing: border-box;
 }
@@ -36,7 +36,7 @@
 }
 
 
-/*--scroool bar*/
+/* --scroool bar */
 ::-webkit-scrollbar{
     width:4px;
 }
@@ -197,15 +197,17 @@
 
 
 body{
-    width:100%;
+    max-width:100vw;
     font-family: 'popins1';
     position: relative;
     background: var(--bg-cl);
+    /* overflow-x: hidden; */
     
 }
 
 /* header-section */
 header{
+    width:100%;
     display:flex;
     justify-content: space-between;
     align-items:center;
@@ -321,7 +323,7 @@ footer{
     height:12vw;
     display:flex;
     flex-direction: column;
-    gap:auto;
+    /* gap:auto; */
     align-items:center;
     justify-content: center;
     margin-top:55px;
