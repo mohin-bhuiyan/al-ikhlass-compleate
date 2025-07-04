@@ -36,7 +36,9 @@ function main(data){
 
                 // store surah number in localstorage
                     surah_div.addEventListener('click',()=>{
-            sessionStorage.setItem('quran_surah_index', data.number);
+            sessionStorage.setItem('quran_surah_index', data.number); 
+            let lode = document.getElementById('loading');
+            lode.style.display="flex";
                     })
 
 

@@ -11,7 +11,7 @@ h1{
 .aya-wrap{
     width:100%;
     padding:12px 100px;
-    background-color: white;
+    background-color: rgb(246, 247, 193);
     /* direction: rtl; */
 }
 
@@ -40,4 +40,20 @@ h1{
     padding-top:5px;
     margin-top:12px;
     font-size: 18px;
+}
+
+.main-page{
+    position: relative;
+}
+.main-page button{
+   position: absolute;
+   background:none;
+   border:none;
+   border-radius: 12px;
+   background-color: rgb(44, 28, 8);
+   padding:12px 7px;
+   top:40px;
+   color:white;
+   left:1vw;
+
 }

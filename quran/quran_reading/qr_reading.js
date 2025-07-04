@@ -28,26 +28,55 @@ function parsing(ar_data, bn_data){ //pars all data text to xml
     let ar_surah = ar_parser.getElementsByTagName('sura')[surah_index];
     let bn_surah = bn_parser.getElementsByTagName('sura')[surah_index];
 
-    console.log(ar_surah)
-    console.log(bn_surah)
+    // console.log(ar_surah)
+    // console.log(bn_surah)
 
 render(ar_surah,bn_surah)  //---sent data to render function
+
+button(ar_surah,bn_surah);
 }
+
+
+
+
+
+
+
+function button(ar_surah,bn_surah){
+
+    let buttons= document.querySelector('button');
+
+    document.addEventListener("click", (e)=>{
+        console.log(e);
+
+        console.log(buttons);
+        display_bangla= !display_bangla;
+        
+    render(ar_surah,bn_surah)
+        console.log(display_bangla)
+    })
+    
+}
+
+
+
 
 
 
 function render(ar_surah, bn_surah){  //------render data----
 
+
     let ar_aya= ar_surah.getElementsByTagName('aya');
      let bn_aya= bn_surah.getElementsByTagName('aya');
 
-     console.log(ar_aya.length)
-    console.log(bn_aya[1])
+    //  console.log(ar_aya.length)
+    // console.log(bn_aya[1])
 
     let h1= document.querySelector('h1');
     h1.innerText= ar_surah.getAttribute('name')
 
-    let aya_wrap_html= document.querySelector('.aya-wrap')
+    let aya_wrap_html= document.querySelector('.aya-wrap') //target the wraper section
+    aya_wrap_html.innerHTML='';
 
     for(let i=0; i<ar_aya.length; i++){
          
@@ -67,8 +96,6 @@ function render(ar_surah, bn_surah){  //------render data----
             bn_text.innerText= ` ${bn_aya[i].getAttribute('text')} `;
             bn_text.style.textAlign= "center";
             ar_text.append(bn_text);
-            
-            console.log(bn_text);
         }
 
     }
