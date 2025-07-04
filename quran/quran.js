@@ -36,9 +36,11 @@ function main(data){
 
                 // store surah number in localstorage
                     surah_div.addEventListener('click',()=>{
+
             sessionStorage.setItem('quran_surah_index', data.number); 
-            let lode = document.getElementById('loading');
+           lode = document.getElementById('loading');  //loading animation ,,,this is problem .. cause i am taking the variable from another js file 
             lode.style.display="flex";
+
                     })
 
 

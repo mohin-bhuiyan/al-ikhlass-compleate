@@ -32,7 +32,6 @@ function parsing(ar_data, bn_data){ //pars all data text to xml
     // console.log(bn_surah)
 
 render(ar_surah,bn_surah)  //---sent data to render function
-
 button(ar_surah,bn_surah);
 }
 
@@ -40,7 +39,7 @@ button(ar_surah,bn_surah);
 
 
 
-
+// ------button   -----
 
 function button(ar_surah,bn_surah){
 
@@ -52,7 +51,19 @@ function button(ar_surah,bn_surah){
         console.log(buttons);
         display_bangla= !display_bangla;
         
-    render(ar_surah,bn_surah)
+       
+        lode.style.display="flex";//,,,this is problem .. cause i am taking the variable from another js file 
+            lode.style
+        lode.style.background= 'transparent';
+        console.log(lode);
+        // -
+        setTimeout(()=>{
+
+            lode.style.display="none";
+            render(ar_surah,bn_surah)
+            
+        },1500)
+
         console.log(display_bangla)
     })
     
